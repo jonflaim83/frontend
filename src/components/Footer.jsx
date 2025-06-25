@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-
+  
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -19,7 +19,7 @@ const Footer = () => {
             <p>Ethical Hacker & Data Scientist</p>
             <p>Building secure, data-driven solutions for the digital world.</p>
           </div>
-          
+
           <div className="footer-section">
             <h4>Quick Links</h4>
             <ul className="footer-links">
@@ -29,7 +29,7 @@ const Footer = () => {
               <li><button onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>Contact</button></li>
             </ul>
           </div>
-          
+
           <div className="footer-section">
             <h4>Projects</h4>
             <ul className="footer-links">
@@ -39,12 +39,12 @@ const Footer = () => {
               <li><a href="https://github.com/jonflaim83" target="_blank" rel="noopener noreferrer">View All</a></li>
             </ul>
           </div>
-          
+
           <div className="footer-section">
             <h4>Connect</h4>
             <div className="footer-social">
-              <a href="mailto:jonflaim83@outlook.com" className="social-link">
-                <span>📧</span> Email
+              <a href="mailto:jonflaim83@outlook.com" className="social-link email-link">
+                <span>📧</span> jonflaim83@outlook.com
               </a>
               <a href="https://github.com/jonflaim83" target="_blank" rel="noopener noreferrer" className="social-link">
                 <span>💻</span> GitHub
@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <p>&copy; {currentYear} Jon Flaim. All rights reserved.</p>
