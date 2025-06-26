@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="contact-content">
         <h2 className="section-title">Let's Connect</h2>
         <p className="contact-subtitle">
-          Ready to discuss cybersecurity challenges, data science projects, or development opportunities. 
+          Ready to discuss cybersecurity challenges, data science projects, or development opportunities.
           Let's build something amazing together.
         </p>
         
@@ -29,13 +29,13 @@ const Contact = () => {
             <p>Available for technical discussions, code reviews, and sharing insights on cybersecurity and data science best practices.</p>
           </div>
         </div>
-
+        
         <div className="contact-info">
-          <div className="contact-item">
+          <div className="contact-item contact-email-item">
             <span className="contact-emoji">📧</span>
             <div className="contact-details">
               <h4>Email</h4>
-              <a href="mailto:jonflaim83@outlook.com">jonflaim83@outlook.com</a>
+              <a href="mailto:jonflaim83@outlook.com" className="contact-email-link">jonflaim83@outlook.com</a>
             </div>
           </div>
           
@@ -48,7 +48,9 @@ const Contact = () => {
               </a>
             </div>
           </div>
-          
+        </div>
+        
+        <div className="contact-info">
           <div className="contact-item">
             <span className="contact-emoji">🔗</span>
             <div className="contact-details">
@@ -67,13 +69,11 @@ const Contact = () => {
             </div>
           </div>
         </div>
-
+        
         <div className="contact-cta">
           <h3>Ready to start a conversation?</h3>
           <p>Whether you're looking to secure your infrastructure, extract insights from data, or build robust applications, I'm here to help.</p>
-          <a href="mailto:jonflaim83@outlook.com" className="btn btn-primary">
-            Get In Touch
-          </a>
+          <a href="mailto:jonflaim83@outlook.com" className="btn btn-primary">Get In Touch</a>
         </div>
       </div>
     </section>
