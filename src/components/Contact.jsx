@@ -1,6 +1,31 @@
 import React from 'react';
 
 const Contact = () => {
+  // Inline styles for consistent tile sizing
+  const contactInfoStyle = {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(2, 1fr)',
+    gap: '1.5rem',
+    maxWidth: '600px',
+    margin: '2rem auto',
+    padding: '0 1rem'
+  };
+
+  const contactItemStyle = {
+    background: 'rgba(255, 255, 255, 0.1)',
+    borderRadius: '12px',
+    padding: '1.5rem',
+    backdropFilter: 'blur(10px)',
+    border: '1px solid rgba(255, 255, 255, 0.2)',
+    transition: 'transform 0.3s ease, background 0.3s ease',
+    minHeight: '140px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    textAlign: 'center'
+  };
+
   return (
     <section id="contact" className="contact">
       <div className="contact-content">
@@ -16,13 +41,11 @@ const Contact = () => {
             <h3>Professional Opportunities</h3>
             <p>Open to full-time, contract, and consulting opportunities in cybersecurity, data science, and software development.</p>
           </div>
-          
           <div className="contact-card">
             <div className="contact-icon">🤝</div>
             <h3>Collaboration</h3>
             <p>Interested in collaborating on open-source projects, research, or innovative solutions in security and data analytics.</p>
           </div>
-          
           <div className="contact-card">
             <div className="contact-icon">🎓</div>
             <h3>Knowledge Sharing</h3>
@@ -30,16 +53,19 @@ const Contact = () => {
           </div>
         </div>
         
-        <div className="contact-info">
-          <div className="contact-item contact-email-item">
+        {/* Fixed: Single container with inline styles for consistent sizing */}
+        <div style={contactInfoStyle}>
+          <div style={contactItemStyle}>
             <span className="contact-emoji">📧</span>
             <div className="contact-details">
               <h4>Email</h4>
-              <a href="mailto:jonflaim83@outlook.com" className="contact-email-link">jonflaim83@outlook.com</a>
+              <a href="mailto:jonflaim83@outlook.com" className="contact-email-link">
+                jonflaim83@outlook.com
+              </a>
             </div>
           </div>
           
-          <div className="contact-item">
+          <div style={contactItemStyle}>
             <span className="contact-emoji">💻</span>
             <div className="contact-details">
               <h4>GitHub</h4>
@@ -48,10 +74,8 @@ const Contact = () => {
               </a>
             </div>
           </div>
-        </div>
-        
-        <div className="contact-info">
-          <div className="contact-item">
+          
+          <div style={contactItemStyle}>
             <span className="contact-emoji">🔗</span>
             <div className="contact-details">
               <h4>LinkedIn</h4>
@@ -61,7 +85,7 @@ const Contact = () => {
             </div>
           </div>
           
-          <div className="contact-item">
+          <div style={contactItemStyle}>
             <span className="contact-emoji">📍</span>
             <div className="contact-details">
               <h4>Location</h4>
