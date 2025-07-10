@@ -13,11 +13,10 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-content">
           <h1>Jon Flaim</h1>
-          <div className="subtitle">Ethical Hacker & Data Scientist</div>
+          <div className="subtitle"> Data Scientist</div>
           <p className="description">
-            Penetration testing specialist with strong data science foundations, 
-            building secure applications and extracting insights from complex datasets. 
-            Ready to tackle cybersecurity challenges and drive data-driven solutions.
+            Data science professional with strong foundations in statistical analysis, machine learning, and business intelligence.
+            Skilled in Python, SQL, and advanced analytics to solve complex business challenges and deliver data-driven solutions that impact bottom-line results.
           </p>
           <div className="hero-buttons">
             <button 
