@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-content">
           <h1>Jon Flaim</h1>
-          <div className="subtitle"> Data Scientist</div>
+          <div className="subtitle"> Data Analyst</div>
           <p className="description">
             Data science professional with strong foundations in statistical analysis, machine learning, and business intelligence.
             Skilled in Python, SQL, and advanced analytics to solve complex business challenges and deliver data-driven solutions that impact bottom-line results.
