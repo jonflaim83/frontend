@@ -13,10 +13,11 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-content">
           <h1>Jon Flaim</h1>
-          <div className="subtitle"> Data Professional </div>
+          <div className="subtitle"> Full Stack Engineer </div>
           <p className="description">
-            Data analyst and pentration tester with strong foundations in ServiceNow, statistical analysis, machine learning, and business intelligence. 
-            Skilled in Python, SQL, and advanced analytics to solve complex business challenges and deliver data-driven solutions that impact bottom-line results.
+            ServiceNow Developer and Business Analyst with strong foundations in platform development, business intelligence, and process automation. 
+            Experienced in building ServiceNow workflows, business rules, and integrations while delivering data-driven solutions that streamline operations and drive business outcomes. 
+            Skilled in Python, SQL, and advanced analytics to solve complex business challenges and implement scalable ServiceNow solutions.
           </p>
           <div className="hero-buttons">
             <button 
