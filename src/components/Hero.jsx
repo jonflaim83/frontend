@@ -13,9 +13,9 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-content">
           <h1>Jon Flaim</h1>
-          <div className="subtitle"> Data Analyst and Pentration Tester</div>
+          <div className="subtitle"> Data Professional </div>
           <p className="description">
-            Data analyst and pentration tester with strong foundations in statistical analysis, machine learning, and business intelligence. 
+            Data analyst and pentration tester with strong foundations in ServiceNow, statistical analysis, machine learning, and business intelligence. 
             Skilled in Python, SQL, and advanced analytics to solve complex business challenges and deliver data-driven solutions that impact bottom-line results.
           </p>
           <div className="hero-buttons">
