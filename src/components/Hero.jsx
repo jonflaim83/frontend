@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-content">
           <h1>Jon Flaim</h1>
-          <div className="subtitle"> Full Stack Engineer </div>
+          <div className="subtitle"> ServiceNow Developer & Business Intelligence Specialist </div>
           <p className="description">
             ServiceNow Developer and Business Analyst with strong foundations in platform development, business intelligence, and process automation. 
             Experienced in building ServiceNow workflows, business rules, and integrations while delivering data-driven solutions that streamline operations and drive business outcomes. 
